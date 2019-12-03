@@ -1331,21 +1331,20 @@ input[type='checkbox'] {
     text-align: center;
 }
 
-.counter #counter .cell {
+.counter .cell {
     display: inline-block;
-    width: 6.25rem;
     margin-right: 1rem;
     margin-left: 1rem;
     margin-bottom: 2rem;
 }
 
-.counter #counter .counter-value {
+.counter .counter-value {
     color: #FF9F22;
     font: 700 3.5rem/4.25rem "Montserrat", sans-serif;
     vertical-align: middle;
 }
 
-.counter #counter .counter-info {
+.counter .counter-info {
     margin-bottom: 0;
     color: #444444;
     font: 400 0.875rem/1.25rem "Open Sans", sans-serif;
@@ -1930,13 +1929,12 @@ a:hover.back-to-top {
         padding-bottom: 4.5rem;
     }
 
-    .counter #counter .cell {
-        width: 8rem;
+    .counter .cell {
         margin-right: 2.5rem;
         margin-left: 2.5rem;
     }
 
-    .counter #counter .counter-value {
+    .counter .counter-value {
         font: 700 4.25rem/4.5rem "Montserrat", sans-serif;
     }
     /* end of statistics */
